@@ -3,7 +3,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { NavHashLink } from "react-router-hash-link";
 import { useState } from "react";
 
-import CV from "../../assets/CV_VinayakSingh.pdf";
+import CV from "../../assets/Sam_Jesberg_Resume.pdf";
 import SunIcon from "../../assets/sun-regular.svg"; // Assuming the path to your SVG
 import MoonIcon from "../../assets/moon-solid.svg"; // Assuming the path to your SVG
 
@@ -38,7 +38,7 @@ export function Header() {
             Contact
           </NavHashLink>
           <a href={CV} download className="button">
-            CV
+            Resume
           </a>
         </nav>
 
