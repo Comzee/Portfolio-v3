@@ -1,16 +1,20 @@
-# Portfolio of Vinayak Singh
+# Personal Website
 
-<img src ="https://github.com/CodeVinayak/CodeVinayak/blob/5920a79f4c5977332a67caf91125241cf0fc46b5/www.vinayaksingh.in.png" />
- 
-This project was created with CRA (Create React App)
+## Built With:
 
-This is my portfolio website to introduce myself, here I put my skills, projects, and contact details.
-
-## Technologies used:
 - React
 - Typescript
-- Styled Components
- 
+- CSS
+
 ## To run this project:
+
 - yarn install
 - yarn run start
+
+## Credit:
+
+This template is created by Vinayak
+
+### fork from:
+
+https://github.com/CodeVinayak/Portfolio-v2
