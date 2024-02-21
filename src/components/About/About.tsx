@@ -130,7 +130,7 @@ export function About() {
       </div>
       <div className="about-image" style={{ display: "flex", flex: "1" }}>
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={SamJesberg} alt="Vinayak Singh" />
+          <img src={SamJesberg} alt="Developer Computer" />
         </ScrollAnimation>
       </div>
     </Container>

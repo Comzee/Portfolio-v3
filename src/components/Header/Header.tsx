@@ -4,17 +4,17 @@ import { NavHashLink } from "react-router-hash-link";
 import { useState } from "react";
 
 import CV from "../../assets/Sam_Jesberg_Resume.pdf";
-import SunIcon from "../../assets/sun-regular.svg"; // Assuming the path to your SVG
-import MoonIcon from "../../assets/moon-solid.svg"; // Assuming the path to your SVG
+import SunIcon from "../../assets/sun-regular.svg";
+import MoonIcon from "../../assets/moon-solid.svg";
 
 export function Header() {
   const [isActive, setActive] = useState(false);
-  const [isLightTheme, setIsLightTheme] = useState(true); // Use a boolean state for theme
+  const [isLightTheme, setIsLightTheme] = useState(true);
 
   function toggleTheme() {
     let html = document.getElementsByTagName("html")[0];
     html.classList.toggle("light");
-    setIsLightTheme(!isLightTheme); // Toggle theme state
+    setIsLightTheme(!isLightTheme);
   }
 
   function closeMenu() {
