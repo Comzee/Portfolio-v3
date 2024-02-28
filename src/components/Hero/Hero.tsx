@@ -40,13 +40,13 @@ export function Hero() {
           <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
             <div className="social-media">
               <a
-                href="https://www.linkedin.com/in/"
+                href="https://www.linkedin.com/in/sam-jesberg-52a6aa54/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img src={linkedin} alt="Linkedin" />
               </a>
-              <a
+              {/* <a
                 href="https://github.com/"
                 target="_blank"
                 rel="noreferrer"
@@ -66,7 +66,7 @@ export function Hero() {
                 rel="noreferrer"
               >
                 <img src={telegram} alt="telegram" />
-              </a>
+              </a> */}
             </div>
           </ScrollAnimation>
         </div>
