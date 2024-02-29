@@ -30,7 +30,7 @@ export function About() {
           </ScrollAnimation>
           <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
             <p>
-              Hi there! I'm Samuel, a full stack developer with a passion for
+              Hi there! I'm Sam, a full stack developer with a passion for
               creating custom applications for my clients. With a skill set
               including Java, Spring, SQL, REACT, TypeScript, and CSS. I have
               the tools to bring any vision to life.

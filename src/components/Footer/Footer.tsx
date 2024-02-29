@@ -1,65 +1,53 @@
-import { Container } from './styles'
+import { Container, CenterDiv, LeftSideDiv, Socials } from "./styles";
 
-import reactIcon from '../../assets/react-icon.svg'
-import linkedin from '../../assets/linkedin.svg'
-import githubIcon from '../../assets/github.svg'
-import whatsapp from '../../assets/whatsapp.svg'
-import telegram from '../../assets/telegram.svg'
-import instagramIcon from '../../assets/instagram.svg'
+import reactIcon from "../../assets/react-icon.svg";
+import linkedin from "../../assets/linkedin.svg";
+// import githubIcon from "../../assets/github.svg";
+// import whatsapp from "../../assets/whatsapp.svg";
+// import telegram from "../../assets/telegram.svg";
+// import instagramIcon from "../../assets/instagram.svg";
 // import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
   return (
     <Container className="footer">
-      <a href="https://0.0.0.0" className="logo">
-        <span>www.website</span>
-        <span>website.in</span>
-      </a>
-      <div>
+      <LeftSideDiv>
+        <a href="https://samjesberg.com" className="logo">
+          <div>
+            <span>www.sam</span>
+            <span>jesberg.com</span>
+          </div>
+        </a>
+      </LeftSideDiv>
+
+      <CenterDiv>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
           {/* <span>❤️</span> */}
         </p>
-      </div>
+      </CenterDiv>
 
-      <div className="social-media">
+      <Socials>
         <a
-          href="https://www.linkedin.com/in/XYZ"
+          href="https://www.linkedin.com/in/sam-jesberg-52a6aa54/"
           target="_blank"
           rel="noreferrer"
         >
           <img src={linkedin} alt="Linkedin" />
         </a>
-        <a
-          href="https://github.com/XYZ/"
-          target="_blank"
-          rel="noreferrer"
-        >
+      </Socials>
+      {/* <a href="https://github.com/XYZ/" target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="GitHub" />
         </a>
-        <a
-          href="https://api.whatsapp.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://api.whatsapp.com/" target="_blank" rel="noreferrer">
           <img src={whatsapp} alt="Whatsapp" />
         </a>
-        <a
-          href="https://t.me/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://t.me/" target="_blank" rel="noreferrer">
           <img src={telegram} alt="telegram" />
         </a>
-        <a
-          href="https://www.instagram.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
           <img src={instagramIcon} alt="Instagram" />
-        </a>
-     
-      </div>
+        </a> */}
     </Container>
-  )
+  );
 }
