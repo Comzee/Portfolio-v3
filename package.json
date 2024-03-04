@@ -11,6 +11,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
+    "cross-env": "^7.0.3",
     "react": "^17.0.2",
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.2",
@@ -26,10 +27,12 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "cross-env HTTPS=false react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "tunnel": "ngrok http 3000",
+    "auth": "ngrok authtoken 2d4d4deTLgFRu3irfRXhvUuDcdU_69GWyRTwRLFQUwFZQTfAe"
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +57,7 @@
     "@types/react-google-recaptcha": "^2.1.2",
     "@types/react-router-hash-link": "^2.4.4",
     "@types/styled-components": "^5.1.18",
-    "@types/validator": "^13.7.1"
+    "@types/validator": "^13.7.1",
+    "ngrok": "^5.0.0-beta.2"
   }
 }
