@@ -280,7 +280,7 @@ export function Project() {
               </svg>
               <div className="project-links">
                 <a
-                  href="https://velocityai.vinayaksingh.com/"
+                  href="https://velocityai.samjesberg.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
