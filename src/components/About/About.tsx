@@ -1,15 +1,11 @@
 import { Container } from "./styles";
 //SVG block
-//import wordpress from "../../assets/wordpress.svg";
-//import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-//import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
-//import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import javaIcon from "../../assets/Java.svg";
 import springIcon from "../../assets/Spring_Boot.svg";
 import apacheIcon from "../../assets/Apache.svg";
@@ -88,11 +84,6 @@ export function About() {
                 <img src={vueIcon} alt="Vue" />
               </ScrollAnimation>
             </div>
-            {/* <div className="hability">
-              <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-                <img src={nodeIcon} alt="Node" />
-              </ScrollAnimation>
-            </div> */}
             <div className="hability">
               <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
                 <img src={htmlIcon} alt="Html" />

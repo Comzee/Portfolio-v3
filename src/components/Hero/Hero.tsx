@@ -3,10 +3,7 @@ import { Container } from "./styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import { NavHashLink } from "react-router-hash-link";
 import linkedin from "../../assets/linkedin.svg";
-// import githubIcon from "../../assets/github.svg";
-// import whatsapp from "../../assets/whatsapp.svg";
 import Hello from "../../assets/Hello.gif";
-// import telegram from "../../assets/telegram.svg";
 import SamJesberg from "../../assets/SamJesberg.png";
 
 export function Hero() {
@@ -46,27 +43,6 @@ export function Hero() {
               >
                 <img src={linkedin} alt="Linkedin" />
               </a>
-              {/* <a
-                href="https://github.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={githubIcon} alt="GitHub" />
-              </a>
-              <a
-                href="https://api.whatsapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={whatsapp} alt="Whatsapp" />
-              </a>
-              <a
-                href="https://t.me/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={telegram} alt="telegram" />
-              </a> */}
             </div>
           </ScrollAnimation>
         </div>

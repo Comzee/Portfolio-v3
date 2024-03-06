@@ -1,7 +1,4 @@
 import { Container } from "./styles";
-// import githubIcon from "../../assets/github.svg"
-// import DownloadApp from '../../assets/download.png'
-// import externalLink from "../../assets/external-link.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function Project() {
@@ -37,15 +34,6 @@ export function Project() {
 		c-2.1-0.9-4.5-1.4-7.3-1.4l-0.2,0V6.3L3,6.4v17.4C3.7,23.7,4.4,23.7,5.1,23.7"
                 ></path>
               </svg>
-              {/* <div className="project-links">
-                <a
-                  href="https://kameleon.co.in/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div> */}
             </header>
             <div className="body">
               <h3>Anoka Ramsey College</h3>
@@ -84,15 +72,6 @@ export function Project() {
                 <title>Worker</title>
                 <path d="M40.91,55.32l-0.27,16.72h17.51c3.71,0,6.74,3.03,6.74,6.74v6.74h-0.07v26.36c0,3.71-3.03,6.74-6.74,6.74 h-6.74V87.46c0-2.95-1.11-1.93-4.45-1.93H31.83v-0.04h-8.64c-5.58,0-10.14-4.56-10.14-10.14V40.18c0-5.67,4.64-10.31,10.31-10.31 h5.1c10.62,0,8.93,7.31,13.63,11.91c4.64,4.54,3.47,5.06,9.81,5.06h13.66c11.31,0,5.23,10.99-1.47,10.65H51.57 C45.99,57.49,45.52,58.38,40.91,55.32L40.91,55.32z M76.48,57.55c-1.63,0-2.95-1.32-2.95-2.95c0-1.63,1.32-2.95,2.95-2.95h18.99 l10.17-20.7c0.71-1.46,2.48-2.06,3.94-1.35c1.46,0.71,2.06,2.48,1.35,3.93l-10.87,22.12c-0.42,1.11-1.5,1.9-2.76,1.9H76.48 L76.48,57.55z M50.09,59.66h57.21c0.33,0,0.6,0.28,0.6,0.6v8.59c0,0.32-0.28,0.6-0.6,0.6h-2.7v52.64c0,0.44-0.36,0.79-0.79,0.79 h-6.79c-0.44,0-0.79-0.36-0.79-0.79V69.45H50.09c-0.32,0-0.6-0.27-0.6-0.6v-8.59C49.49,59.93,49.76,59.66,50.09,59.66L50.09,59.66z M5.54,112.32c0.05-0.41,0.24-0.81,0.55-1.13c2.33-2.35,5.28-4.27,8.65-5.58c2.36-0.92,4.91-1.54,7.59-1.81l-0.51-8.03H3.54 c-1.9,0-3.47-1.56-3.47-3.47c0-14.35,3.38-25.14,0-41.48c-1-4.84,8.99-5.54,8.99,0.26v36.77h34.58c1.91,0,3.46,2.54,3.46,4.45V95 c0,0.42-0.35,0.76-0.76,0.76H27.99l-0.71,7.95c2.84,0.19,5.56,0.77,8.06,1.68c3.22,1.17,6.07,2.9,8.4,5.02 c0.56,0.51,0.76,1.26,0.58,1.95c0.9,0.67,1.48,1.74,1.48,2.95c0,2.04-1.65,3.69-3.69,3.69c-2.04,0-3.68-1.65-3.68-3.69 c0-1.22,0.59-2.3,1.5-2.97c-1.72-1.34-3.73-2.45-5.93-3.25c-2.37-0.87-4.98-1.39-7.73-1.48l-0.4,3.98l-0.02,0.17 c1.56,0.43,2.7,1.86,2.7,3.55c0,2.04-1.65,3.69-3.68,3.69c-2.04,0-3.69-1.65-3.69-3.69c0-1.68,1.13-3.1,2.67-3.54l-0.01-0.19 l-0.28-3.94c-2.63,0.18-5.12,0.74-7.38,1.62h-0.01c-2.2,0.86-4.19,2.02-5.89,3.42c0.68,0.67,1.1,1.6,1.1,2.63 c0,2.04-1.65,3.69-3.68,3.69c-2.04,0-3.69-1.65-3.69-3.69C4,114.08,4.61,112.99,5.54,112.32L5.54,112.32z M35.04,0 c7.79,0,14.1,6.31,14.1,14.1c0,7.79-6.31,14.1-14.1,14.1c-7.79,0-14.1-6.31-14.1-14.1C20.94,6.31,27.25,0,35.04,0L35.04,0z"></path>
               </svg>
-              {/* <div className="project-links">
-                <a
-                  href="https://madewithluv.in/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div> */}
             </header>
             <div className="body">
               <h3>14 years professsional technical experience</h3>
@@ -106,12 +85,6 @@ export function Project() {
                 to frontend.
               </p>
             </div>
-            {/* <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
-              </ul>
-            </footer> */}
           </div>
         </ScrollAnimation>
 
@@ -157,15 +130,6 @@ export function Project() {
                 <path d="M66.46,50.74a5,5,0,0,0-.55-1.81l-.06-.11a3.73,3.73,0,0,1,0-3.25" />
                 <path d="M56.93,45.57a3.75,3.75,0,0,1,.17,2.87" />
               </svg>
-              {/* <div className="project-links">
-                <a
-                  href="https://justmedicalbooks.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div> */}
             </header>
             <div className="body">
               <h3>Personal Interests</h3>
@@ -183,199 +147,8 @@ export function Project() {
                 technical trends of the day.
               </p>
             </div>
-            {/* <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-                <li>Woocommerce</li>
-              </ul>
-            </footer> */}
           </div>
         </ScrollAnimation>
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://www.smartcornersproperties.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>SmartCorners - Real Estate Properties Site</h3>
-              <p>
-              This real estate site displays land properties and helps buyers and sellers. Buyers can see lots of pictures, videos, and details about properties before visiting in person. It makes it easier for buyers to find what they want and helps sellers get more attention.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>               
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://drrohitdamor.com"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Dr.Rohit Damor - Online Appointment Booking Site</h3>
-              <p>
-                This website allows people to easily book appointments with you
-                online. It takes just a minute to schedule a meeting. This kind
-                of site is helpful for booking appointments and not missing any
-                potential clients. You should try this website to see how
-                convenient and efficient it is.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://velocityai.samjesberg.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>VeloCityAI</h3>
-              <p>
-                VelocityAI is a website that allows users to get instant answers
-                to any question and generate stunning AI pictures using OpenAI's
-                GPT-3 and DALL-E model.With VelocityAI, users can type in
-                text-based prompts and receive a corresponding response.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>React</li>
-                <li>Typescript</li>
-                <li>Html</li>
-                <li>css</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b " stroke-width="1" stroke-linecap="round" stroke-linejoin="round" ><title>Folder</title><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
-              <div className="project-links">
-                <a href="https://mitulindustries.com/" target="_blank" rel="noreferrer">
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Mitul Industries - Manufacturing Industries Site</h3>
-              <p>
-              This manufacturing industry website shows off products and helps the business get more customers and information online. Making products is important but making money from them is the goal. This site can help the business make more profit.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
-
-        {/* <ScrollAnimation animateIn="flipInX">
-          <div className="project">
-            <header>
-              <svg
-                width="50"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="#23ce6b "
-                stroke-width="1"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <title>Folder</title>
-                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-              </svg>
-              <div className="project-links">
-                <a
-                  href="https://mayatmaj.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img src={externalLink} alt="Visit site" />
-                </a>
-              </div>
-            </header>
-            <div className="body">
-              <h3>Mayatmaj - Film Production Site</h3>
-              <p>
-                This agency website promotes post production, virtual
-                production, and video marketing services. It shows previous
-                client work and reviews to get more business. If you need help
-                with production, this website can give you information and
-                connect you with the right people.
-              </p>
-            </div>
-            <footer>
-              <ul className="tech-list">
-                <li>Wordpress</li>
-              </ul>
-            </footer>
-          </div>
-        </ScrollAnimation> */}
       </div>
     </Container>
   );

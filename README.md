@@ -13,7 +13,7 @@
 
 ## Credit:
 
-This template is created by Vinayak
+This template was created by Vinayak
 
 ### fork from:
 

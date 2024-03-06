@@ -5,17 +5,12 @@ import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
 
-//import wordpress from "../../assets/wordpress.svg";
-//import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
-//import sassIcon from "../../assets/sass-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
-//import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
-//import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import javaIcon from "../../assets/Java.svg";
 import springIcon from "../../assets/Spring_Boot.svg";
 import apacheIcon from "../../assets/Apache.svg";
@@ -189,11 +184,6 @@ export function Main() {
                   width: 20,
                   height: 20,
                 },
-                // {
-                //   src: nodeIcon,
-                //   width: 20,
-                //   height: 20,
-                // },
                 {
                   src: reactIcon,
                   width: 20,
