@@ -1,12 +1,6 @@
 import { Container, CenterDiv, LeftSideDiv, Socials } from "./styles";
-
 import reactIcon from "../../assets/react-icon.svg";
 import linkedin from "../../assets/linkedin.svg";
-// import githubIcon from "../../assets/github.svg";
-// import whatsapp from "../../assets/whatsapp.svg";
-// import telegram from "../../assets/telegram.svg";
-// import instagramIcon from "../../assets/instagram.svg";
-// import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
   return (
@@ -19,14 +13,11 @@ export function Footer() {
           </div>
         </a>
       </LeftSideDiv>
-
       <CenterDiv>
         <p>
           This Website was made with <img src={reactIcon} alt="React" />
-          {/* <span>❤️</span> */}
         </p>
       </CenterDiv>
-
       <Socials>
         <a
           href="https://www.linkedin.com/in/sam-jesberg-52a6aa54/"
@@ -36,18 +27,6 @@ export function Footer() {
           <img src={linkedin} alt="Linkedin" />
         </a>
       </Socials>
-      {/* <a href="https://github.com/XYZ/" target="_blank" rel="noreferrer">
-          <img src={githubIcon} alt="GitHub" />
-        </a>
-        <a href="https://api.whatsapp.com/" target="_blank" rel="noreferrer">
-          <img src={whatsapp} alt="Whatsapp" />
-        </a>
-        <a href="https://t.me/" target="_blank" rel="noreferrer">
-          <img src={telegram} alt="telegram" />
-        </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
-          <img src={instagramIcon} alt="Instagram" />
-        </a> */}
     </Container>
   );
 }
